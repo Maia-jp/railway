@@ -20,7 +20,7 @@ interface:
 endpoints:
   custom:
     - name: 'SolarCore'
-      apiKey: "${SolarCore_API_KEY}"
+      apiKey: "user_provided"
       baseURL: "${SolarCore_URL}"
       models:
         default:
