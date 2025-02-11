@@ -1,0 +1,41 @@
+# Configuration version (required)
+version: 1.2.1
+
+# Cache settings: Set to true to enable caching
+cache: false
+
+# Custom interface configuration
+interface:
+  endpointsMenu: false
+  modelSelect: true
+  parameters: false
+  sidePanel: true
+  presets: true
+  prompts: true
+  bookmarks: true
+  multiConvo: false
+  agents: false
+
+
+endpoints:
+  custom:
+    - name: 'SolarCore'
+      apiKey: '${SolarCore_API_KEY}'
+      baseURL: '${SolarCore_URL}'
+      models:
+        default:
+          [
+            '${SolarCore_MODEL}'
+          ]
+        fetch: true
+      titleConvo: false 
+      titleModel: 'SolisBot (v0.1)'
+      modelDisplayLabel: 'SolarCore'
+
+# Add fileConfig section
+fileConfig:
+  endpoints:
+    SolarCore:
+      disabled: true  # Disables file uploading to the SolarCore endpoint
+    default:
+      totalSizeLimit: 20
