@@ -20,12 +20,12 @@ interface:
 endpoints:
   custom:
     - name: 'SolarCore'
-      apiKey: '${SolarCore_API_KEY}'
-      baseURL: '${SolarCore_URL}'
+      apiKey: "${SolarCore_API_KEY}"
+      baseURL: "${SolarCore_URL}"
       models:
         default:
           [
-            '${SolarCore_MODEL}'
+            'SolisBot (v0.1)'
           ]
         fetch: true
       titleConvo: false 
