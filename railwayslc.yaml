@@ -25,11 +25,11 @@ endpoints:
       models:
         default:
           [
-            'SolisBot (v0.1)'
+            'SolisBot v1'
           ]
         fetch: true
       titleConvo: false 
-      titleModel: 'SolisBot (v0.1)'
+      titleModel: 'SolisBot v1'
       modelDisplayLabel: 'SolarCore'
 
 # Add fileConfig section
